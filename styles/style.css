@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    font-size: 24px;
+}
+
+h3 {
+    color: #fa9d00;
+}
+
+.newClass {
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    color: tomato;
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#one {
+    font-size: 1.5em;
+    color: green;
+}
+
+[href="https://www.google.com.ua"] {
+    color: #fa4058;
+    text-transform: uppercase;
+}
+
+[title] {
+    color: #0d4cb7;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+p.short-class {
+    color: #8227d7;
+    font-size: 30px;
+}
+
+.box.center {
+    width: 600px;
+    height: 100px;
+    border: 2px solid #fa4058;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+.center {
+    text-align: center;
+    color: #1ae0c7;
+}
+
+.center-block, .center-box {
+    text-align: center;
+    color: #109da1;
+    margin-bottom: 20px;
+}
+
+.list li {
+    color: #f57243;
+}
+
+.list-second > li:first-child {
+    color: #a6a6d0;
+}
+
+.list-second > li:nth-child(3) {
+    color: #daa702;
+    font-size: 22px;
+}
+
+.list-second > li:last-child {
+    color: #da026e;
+}
+
+input[type="text"] {
+    border: 2px solid #da026e;
+    margin-left: 20px;
+}
+
+input[type="number"] {
+    border: 2px solid #8b02da;
+    margin-left: 20px;
+}
